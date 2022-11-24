@@ -1,5 +1,12 @@
+
+.fest{
+    text-align: center;
+}
+
 header {
     grid-area: h;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 nav {
@@ -8,6 +15,8 @@ nav {
 
 article {
 grid-area: a;
+display: grid;
+grid-template-columns: 2fr 2fr;
 }
 
 footer {
@@ -17,10 +26,10 @@ footer {
 main {
     display: grid;
     grid-template-areas:
-    'h, h, h'
-    'n, n, n'
-    'a, a, a'
-    'f, f, f'
+    'h h h'
+    'n n n'
+    'a a a'
+    'f f f'
 }
 
 ul {
@@ -45,6 +54,7 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
 
 
 
