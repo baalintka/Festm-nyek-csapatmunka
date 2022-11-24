@@ -1,0 +1,12 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fest{
+    text-align: center;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
