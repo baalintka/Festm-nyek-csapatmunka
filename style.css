@@ -48,10 +48,22 @@ article div{
 
  .article1{
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(214, 155, 65);
   display: grid;
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
  } 
+ .temak{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+ }
+ .q{
+  width: 300px;
+  height: 255px;
+  border:  solid 2px;
+  margin: auto;
+ 
+ }
 
 .kezdo{
   font-family: fantasy;
