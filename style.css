@@ -8,14 +8,32 @@ div{
   margin: auto;
 }
 #festo{
-  border:3px inset black;
+  border:4px inset black;
   background-color:rgb(37, 83, 83);
 }
 #info {
+  display:block;
+
+  text-align: left;
   border:2px inset white;
   color:white;
 }
+#info p{
+margin:0px;
+text-align: left;
+}
+#info h2{
+  padding: 0;
+  margin:0;
+  text-align: center;
+}
+.erdekesseg h3,h4{
+  color:white;
+  text-align: center;
+}
 .erdekesseg{
+  display: block;
+  text-size-adjust: 10px;
   border: 2px inset white;
   color:black;
   background-color: #2b4f5f;
@@ -86,7 +104,7 @@ nav {
 article {
 grid-area: a;
 display: grid;
-grid-template-columns: 2fr 2fr;
+grid-template-columns: 1fr 2fr;
 }
 
 footer {
