@@ -5,12 +5,28 @@ article div{
 
 .fest{
     text-align: center;
+
 }
 
+ .article1{
+  text-align: center;
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr
+ } 
+
+.kezdo{
+  font-family: fantasy;
+  font-size: 25px;
+  padding: 15px;
+  background: url(SzBkepek/kezdolap.jpg);
+  text-align: center;
+  
+}
 header {
     grid-area: h;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 nav {
