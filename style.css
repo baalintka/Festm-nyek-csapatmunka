@@ -69,6 +69,7 @@ article div{
   background-color: rgb(214, 155, 65);
   display: grid;
   grid-template-columns: 1fr;
+  border: solid black 5px;
  } 
  .temak{
   
@@ -77,12 +78,21 @@ article div{
  }
  .pp{
   color: white;
-  
+  padding: 15px;
   background-color: black;
   border: 2px solid black;
   margin: auto;
+  border: solid rgb(247, 194, 21) 4px;
  }
-
+.hh{
+  font-size: 40px;
+  background-color: rgb(110, 55, 55);
+  padding: 20px;
+  margin: 20px;
+  width:auto;
+  border: solid whitesmoke;
+  text-shadow: 2px 2px 5px rgb(156, 6, 6);
+}
  .q{
   width: 300px;
   height: 255px;
@@ -97,7 +107,12 @@ article div{
   padding: 15px;
   background: url(SzBkepek/kezdolap.jpg);
   text-align: center;
-  
+}
+.kepek{
+  border: solid black 3px;
+  padding: 20px;
+  width: auto;
+  margin: 20px;
 }
 header {
     grid-area: h;
