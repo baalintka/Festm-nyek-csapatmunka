@@ -76,7 +76,11 @@ article div{
   
  }
  .pp{
-  font-weight: bold;
+  color: white;
+  
+  background-color: black;
+  border: 2px solid black;
+  margin: auto;
  }
 
  .q{
