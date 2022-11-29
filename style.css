@@ -108,6 +108,16 @@ article div{
   background: url(SzBkepek/kezdolap.jpg);
   text-align: center;
 }
+
+
+ div.van {
+  font-family: fantasy;
+  font-size: 25px;
+  padding: 15px;
+  background: url(VanGogh/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg);
+  text-align: center;
+  color:tomato ;
+}
 .kepek{
   border: solid black 3px;
   padding: 20px;
@@ -135,6 +145,10 @@ footer {
 }
 
 main {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
     display: grid;
     grid-template-areas:
     'h h h'
@@ -145,7 +159,7 @@ main {
 
 ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style-type:none;
     margin: 0;
     padding: 0;
@@ -170,9 +184,27 @@ ul {
     color:black;
   }
 
+.kiiras {
+  display:block;
+
+  text-align: left;
+  border:2px inset black;
+  color: black;
+}
+
+.kiiras h1 {
+  padding: 0;
+  margin:0;
+  text-align: center;
+
+}
+
+.kiiras p {
+  margin:0px;
+  text-align: left;
 
 
-
+}
 
 
 
