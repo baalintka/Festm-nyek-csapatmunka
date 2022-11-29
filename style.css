@@ -2,6 +2,12 @@
 div{
   padding:10px;
 }
+ #Efooter h2{
+  text-align: center;
+  text-shadow: bisque;
+  text-size-adjust: 10px;
+  font-weight: bold;
+}
  #festo img{
   padding: 5px;
   border: 5px double black;
@@ -53,6 +59,9 @@ h1{
   padding:5px;
   border:6px double black;
   margin:15px;
+
+
+
 }
 article div{
     display: grid;
@@ -69,12 +78,30 @@ article div{
   background-color: rgb(214, 155, 65);
   display: grid;
   grid-template-columns: 1fr;
+  border: solid black 5px;
  } 
  .temak{
   
   font-family: Arial, Helvetica, sans-serif;
   
  }
+ .pp{
+  color: white;
+  padding: 15px;
+  background-color: black;
+  border: 2px solid black;
+  margin: auto;
+  border: solid rgb(247, 194, 21) 4px;
+ }
+.hh{
+  font-size: 40px;
+  background-color: rgb(110, 55, 55);
+  padding: 20px;
+  margin: 20px;
+  width:auto;
+  border: solid whitesmoke;
+  text-shadow: 2px 2px 5px rgb(156, 6, 6);
+}
  .q{
   width: 300px;
   height: 255px;
@@ -89,7 +116,22 @@ article div{
   padding: 15px;
   background: url(SzBkepek/kezdolap.jpg);
   text-align: center;
-  
+}
+
+
+ div.van {
+  font-family: fantasy;
+  font-size: 25px;
+  padding: 15px;
+  background: url(VanGogh/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg);
+  text-align: center;
+  color:tomato ;
+}
+.kepek{
+  border: solid black 3px;
+  padding: 20px;
+  width: auto;
+  margin: 20px;
 }
 header {
     grid-area: h;
@@ -112,6 +154,10 @@ footer {
 }
 
 main {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
     display: grid;
     grid-template-areas:
     'h h h'
@@ -120,7 +166,7 @@ main {
     'f f f'
 }
 
-ul {
+.menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style-type:none;
@@ -147,10 +193,55 @@ ul {
     color:black;
   }
 
+.kiiras {
+  display:block;
+
+  text-align: left;
+  border:2px inset black;
+  color: black;
+}
+
+.kiiras h1 {
+  padding: 0;
+  margin:0;
+  text-align: center;
+
+}
+
+.kiiras p {
+  margin:0px;
+  text-align: left;
+}
+
+
+.kep {
+height: 350px;
+border: 1px solid black;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+
+.festmenyGogh {
+height:  300px;
+
+}
+
+
+ul {
 
 
 
-
-
-
-
+}
+@media screen and (max-width: 600px) {
+  main{
+    grid-template-areas:
+    'h h h'
+    'n n n'
+    'a a a'
+    'f f f'}
+    article{
+      display: grid;
+    grid-template-columns: 1fr;
+    }
+}
