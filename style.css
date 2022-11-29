@@ -75,7 +75,8 @@ article div{
 
  .article1{
   text-align: center;
-  background-color: rgb(214, 155, 65);
+  background-color: rgb(121, 96, 44);
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr;
   border: solid black 5px;
@@ -83,6 +84,7 @@ article div{
  .temak{
   
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   
  }
  .pp{
@@ -91,10 +93,11 @@ article div{
   background-color: black;
   border: 2px solid black;
   margin: auto;
-  border: solid rgb(247, 194, 21) 4px;
+  border: solid rgb(180, 145, 69) 4px;
  }
 .hh{
   font-size: 40px;
+  color: white;
   background-color: rgb(110, 55, 55);
   padding: 20px;
   margin: 20px;
@@ -105,9 +108,15 @@ article div{
  .q{
   width: 300px;
   height: 255px;
-  border:  solid 2px;
+  border:  solid 5px;
   margin: auto;
  
+ }
+ .lab{
+  text-align: center;
+  border: solid black 5px;
+  margin-top: 2px;
+  background-color: hwb(27 16% 0%)
  }
 
 .kezdo{
@@ -132,6 +141,16 @@ article div{
   padding: 20px;
   width: auto;
   margin: 20px;
+}
+.kepek2{
+  border: solid black 3px;
+  padding: 20px;
+  width: auto;
+  margin: 20px;
+}
+.article2{
+  display: grid;
+grid-template-columns: 1fr 1fr;
 }
 header {
     grid-area: h;
