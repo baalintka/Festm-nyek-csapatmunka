@@ -64,6 +64,8 @@ article div{
 
 .fest{
     text-align: center;
+    border: solid black 3px;
+    margin: 2px;
 
 }
 
@@ -135,16 +137,34 @@ article div{
   padding: 20px;
   width: auto;
   margin: 20px;
+  font-weight: bold;
+  background-color: #3a758f;
+  
 }
 .kepek2{
   border: solid black 3px;
   padding: 20px;
   width: auto;
   margin: 20px;
+  font-weight: bold;
+  background-color: #3a758f;
+}
+.hed{
+  background-image: url(SzBkepek/kocsmaelott.jpg) ;
+}
+.é{
+  font-weight: bold;
+  
+}
+.munkacsy{
+  margin: auto;
+  
 }
 .article2{
   display: grid;
 grid-template-columns: 1fr 1fr;
+background-color: #849ba5;
+
 }
 header {
     grid-area: h;
