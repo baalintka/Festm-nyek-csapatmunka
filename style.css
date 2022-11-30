@@ -4,8 +4,8 @@ div{
 }
  #Efooter h2{
   text-align: center;
-  text-shadow: bisque;
-  text-size-adjust: 10px;
+  
+  
   font-weight: bold;
 }
  #festo img{
@@ -39,7 +39,6 @@ text-align: left;
 }
 .erdekesseg{
   display: block;
-  text-size-adjust: 10px;
   border: 2px inset white;
   color:black;
   background-color: #2b4f5f;
@@ -261,7 +260,7 @@ color:white;
 
 .hieronymusErdekes {
 display: block;
-  text-size-adjust: 10px;
+  
   border: 2px inset white;
   color:white;
   background-color: black;
@@ -281,8 +280,7 @@ display: block;
 
 #kFooter h2{
   text-align: center;
-  text-shadow: bisque;
-  text-size-adjust: 10px;
+  
   font-weight: bold;
   color: white;
 }
