@@ -2,6 +2,12 @@
 div{
   padding:10px;
 }
+ #Efooter h2{
+  text-align: center;
+  
+  
+  font-weight: bold;
+}
  #festo img{
   padding: 5px;
   border: 5px double black;
@@ -33,7 +39,6 @@ text-align: left;
 }
 .erdekesseg{
   display: block;
-  text-size-adjust: 10px;
   border: 2px inset white;
   color:black;
   background-color: #2b4f5f;
@@ -260,9 +265,136 @@ height:  300px;
 
 }
 
+                                                      /* Kende resze */                            
+@font-face {
+  font-family: 'liteOs';
+  src: url(SKkepek/fontcsalad/aa.ttf);
+} 
+
+.hieronymusInformacio {
+display:block;
+text-align: left;
+border:2px inset white;
+color:white;
+}
+
+.hieronymusErdekes {
+display: block;
+  
+  border: 2px inset white;
+  color:white;
+  background-color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hieronymusFestmenyek{
+  border:2px inset white;
+  background-color: black;
+}
+.hieronymusFestmenyek div img{
+  padding:5px;
+  border:6px double white;
+  margin:15px;
+}
+
+#kFooter h2{
+  text-align: center;
+  
+  font-weight: bold;
+  color: white;
+}
+
+.hieronymusPortre img{
+  padding: 5px;
+  border: 5px double white;
+  margin: auto;
+}
+.hieronymusPortre{
+  border:4px inset white;
+  background-color: black;
+
+}
+
+.hieronymusErdekes h3 {
+    padding: 0;
+    margin:0;
+    text-align: center;
+    color: white;
+}
+.hieronymusInformacio  p{
+  margin:0px;
+  text-align: left;
+
+}
+
+.hieronymusInformacio h2{
+  padding: 0;
+  margin:0;
+  text-align: center;
+}
+
+ 
+.hieronymusHeader {
+  font-family:'liteOs';
+  color: white;
+  text-transform: uppercase;
+  background-image: url(https://tiszatajonline.hu/wp-content/uploads/2022/06/Hieronymus-Bosch-ko%CC%88veto%CC%8Bje-Szent-Antal-megki%CC%81se%CC%81rte%CC%81se-1550%E2%80%931600-ko%CC%88ru%CC%88l-Olaj-fa_-88-%C3%97-71-cm-Antwerpen-Koninklijk-Museum-voor-Schone-Kunsten_A-Sze%CC%81pmu%CC%8Bve%CC%81szeti-Mu%CC%81zeum-jo%CC%81volta%CC%81bo%CC%81l-1-e1656430423387.jpg);
+}
+
+/* #18191a */
+
+#hieornymusBosch{
+  background-color: black;
+}
+
+festBosch ul{
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    /* kende rész vége      */
+
+
+
+
 
 ul {
 
 
 
+}                
+                                
+                                
+                              
+                                
+
+@media screen and (max-width: 600px) {
+  main{
+    grid-template-areas:
+    'h h h'
+    'n n n'
+    'a a a'
+    'f f f'}
+    article{
+      display: grid;
+    grid-template-columns: 1fr;
+    }
 }
