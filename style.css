@@ -354,37 +354,8 @@ festBosch ul{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                                     /* kende rész vége      */
-
-
-
-
-
-ul {
-
-
-
-}                
-                                
-                                
-                              
-                                
+                            
 
 @media screen and (max-width: 600px) {
   main{
@@ -394,7 +365,13 @@ ul {
     'a a a'
     'f f f'}
     article{
-      display: grid;
     grid-template-columns: 1fr;
     }
+   .menu{
+    grid-template-columns: 1fr;
+    }
+  .festmeny{
+    grid-template-columns: 1fr;
+  }
+    
 }
